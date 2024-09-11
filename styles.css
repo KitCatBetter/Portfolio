@@ -1,0 +1,366 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #22221d;
+    color: #ffffff;
+}
+
+header {
+    background-color: #35352F;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.projeto {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.5;
+}
+
+footer {
+    text-align: center;
+    padding: px 0;
+    background-color: #35352F;
+    color: #fff;
+}
+
+.pe {
+    font-size: 20px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(textura-circulos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; /* Altere este valor para ajustar a opacidade */
+    z-index: -1;
+    
+}
+
+
+    
+.sobre-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+h2 {
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-left: 810px;
+}
+
+p{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*testando o retangulo*/
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.rect {
+    position: relative;
+    width: 1600px;
+    height: 1000px;
+    border: 5px solid #ffffff;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+
+
+
+.content {
+    
+    position: relative;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.linda {
+    border-style: solid;
+    border-color: #fff;
+    width: auto;
+    height: 950px;
+    margin-left: -1000px;
+    margin-top: -120px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* styles.css */
+.circulo {
+    margin-top: -80px;
+    margin-left: -80px;
+    width: 200px; /* Define a largura do círculo */
+    height: 200px; /* Define a altura do círculo */
+    background-color: #ffffff; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Faz com que o div fique redondo */
+    display: flex; /* Opcional, para centralizar conteúdo dentro do círculo */
+    justify-content: center; /* Opcional, para centralizar conteúdo horizontalmente */
+    color: white; /* Cor do texto (se houver) */
+    font-family: Arial, sans-serif; /* Fonte do texto (se houver) */
+    font-size: 16px; /* Tamanho da fonte (se houver) */
+}
+
+    .circulo2 {
+        margin-top: -110px;
+    margin-left: 430px;
+    width: 200px; /* Define a largura do círculo */
+    height: 200px; /* Define a altura do círculo */
+    background-color: #ffffff; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Faz com que o div fique redondo */
+    }
+
+    .textinho {
+        margin-top: -600px;
+        
+        
+    }
+
+    .porra {
+        margin-left: 900px;
+        margin-bottom: 600px;
+        font-size: 20px;
+    }
+
+   /*ratangulo 2*/
+   
+    .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+    .rect2 {
+    position: relative;
+    width: 1600px;
+    height: 1000px;
+    border: 5px solid #ffffff;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+
+
+
+    .content2 {
+    
+    position: relative;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.linda2 {
+    border-style: solid;
+    border-color: #fff;
+    width: auto;
+    height: 950px;
+    margin-left: 1000px;
+    margin-top: -90px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.circulo3 {
+    margin-top: -110px;
+margin-left: 1450px;
+width: 200px; /* Define a largura do círculo */
+height: 200px; /* Define a altura do círculo */
+background-color: #ffffff; /* Cor de fundo do círculo */
+border-radius: 50%; /* Faz com que o div fique redondo */
+}
+
+.circulo4 {
+    margin-top: -110px;
+margin-left: 920px;
+width: 200px; /* Define a largura do círculo */
+height: 200px; /* Define a altura do círculo */
+background-color: #ffffff; /* Cor de fundo do círculo */
+border-radius: 50%; /* Faz com que o div fique redondo */
+}
+
+.textinho2 {
+    margin-top: -900px;
+    margin-left: -1250px;
+   
+    
+    
+}
+
+.porra2 {
+    margin-left: -450px;
+    margin-bottom: 600px;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+/*ratangulo 3*/
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.rect3 {
+    position: relative;
+    width: 1600px;
+    height: 1000px;
+    border: 5px solid #ffffff;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+
+
+
+.content3 {
+    
+    position: relative;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.textinho3 {
+    margin-top: 70px;
+    margin-left: -790px;
+}
+
+.porra3 {
+ 
+    font-size: 30px;
+}
+
+.circulo5 {
+    margin-top: -110px;
+margin-left: 1450px;
+width: 200px; /* Define a largura do círculo */
+height: 200px; /* Define a altura do círculo */
+background-color: #ffffff; /* Cor de fundo do círculo */
+border-radius: 50%; /* Faz com que o div fique redondo */
+}
+
+.circulo6 {
+    margin-top: px;
+margin-left: -80px;
+width: 200px; /* Define a largura do círculo */
+height: 200px; /* Define a altura do círculo */
+background-color: #ffffff; /* Cor de fundo do círculo */
+border-radius: 50%; /* Faz com que o div fique redondo */
+}
+
+.git {
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.lindaa {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    margin-top: 100px;
+
+}
+
+.botao {
+
+    background-color: #616156; /* Cor de fundo */
+    border: none; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Faz o botão se ajustar ao tamanho do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens ao redor do botão */
+    cursor: pointer; /* Muda o cursor para um ponteiro */
+    border-radius: 4px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  }
+  
+  .botao:hover {
+    background-color: #35352F; /* Cor de fundo ao passar o mouse */
+  }
+
+.git {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .git:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+    opacity: 0.8; /* Torna a imagem um pouco transparente */
+  }
+
+  
